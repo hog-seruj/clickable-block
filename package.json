@@ -1,5 +1,5 @@
 {
-  "name": "clickable-block",
+  "name": "@skilld/clickable-block",
   "version": "1.0.0",
   "description": "Clickable block for Kaizen drupal theme.",
   "main": "index.js",
