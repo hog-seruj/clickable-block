@@ -1,0 +1,24 @@
+{
+  "name": "clickable-block",
+  "version": "1.0.0",
+  "description": "Clickable block for Kaizen drupal theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hog-seruj/clickable-block.git"
+  },
+  "keywords": [
+    "Drupal",
+    "kaizen",
+    "clickable-block"
+  ],
+  "author": "Sergiy Borodulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hog-seruj/clickable-block/issues"
+  },
+  "homepage": "https://github.com/hog-seruj/clickable-block#readme"
+}

@@ -1,0 +1,5 @@
+%clickable-block,
+.clickable-block{
+  display: inherit;
+  cursor: pointer;
+}
