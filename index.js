@@ -36,10 +36,7 @@ export default ({
   let goToUrl = (el, e, excludedClass, link) => {
     if (!e.target.closest(excludedClass)) {
       e.preventDefault();
-      Object.defineProperty(top.location, 'href', {
-        writable: true,
-        value: el.querySelector(link).getAttribute('href')
-      });
+      top.location.href = el.querySelector(link).getAttribute('href');
     }
   }
 };
