@@ -34,7 +34,7 @@ export default ({
 
   // Go to Url function.
   let goToUrl = (el, e, excludedClass, link) => {
-    if (!e.target.closest(excludedClass)) {
+    if (!e.target.closest(excludedClass) && el.querySelector(link) !== null) {
       e.preventDefault();
       top.location.href = el.querySelector(link).getAttribute('href');
     }
